@@ -1,0 +1,82 @@
+%----------------------------------------------------------------------------------------
+%	SECTION TITLE
+%----------------------------------------------------------------------------------------
+
+
+\vspace{-3mm}
+
+\cvsection{Experience}
+
+%----------------------------------------------------------------------------------------
+%	SECTION CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cventries}
+\vspace{-2mm}
+
+%------------------------------------------------    
+
+\vspace{-1.5mm}
+\cventry
+{Graduate Research} % Job title
+{Oregon State University} % Organization
+{Corvallis, OR} % Location
+{January 2011 - Present} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {Used Linux in combination with GIT and SLURM to work on a project requiring thousands of Markov Chain Monte Carlo simulations; the data from each work unit was stitched together to generate the thermodynamic observables of a square-well fluid.}
+\item {Programmed in CUDA to explore a non-linear wave using finite element analysis in combination with RK45.}
+\item {Used the mpi version of NAMD to explore the feasibility of a computational biophysics project.}
+\item{Worked as a team helping others debug and create code in both Python and C++.}
+\end{cvitems}
+}
+
+
+%------------------------------------------------
+
+\vspace{-5mm}
+\cventry
+{Undergraduate Research} % Job title
+{} % Organization
+{} % Location
+{} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {Used LAMMPS to create hundreds of molecular dynamics simulations that contained both a liquid and a solid at the same time. The data was used to recreate the liquid-solid phase coexistence of the Lennard-Jones 12-6 potential.}
+\item {Created an algorithm that identified whether an atom was in a liquid or solid state. The algorithm determined the state by how the nearest neighbors fluctuated. Over time, an atom in a liquid state will generally swap nearest neighbors; on the other hand an atom in a solid state will usually keep the same nearest neighbors.}
+\item {Created an efficient density calculation algorithm. The initial algorithm took 60 seconds per computation while the optimized algorithm took only 2 seconds per computation. I optimized the algorithm by combining bisection and Monte Carlo integration; I also applied geometry to a special case in the bisection algorithm that reduced the unsorted boundary volume elements from a 2d surface down to a 1d wire frame. The reduced boundary naturally decreased the computation time. I recognized the opportunity to apply a second special case that could reduce the unsorted boundary volume elements from a 1d wire frame down to a handful of points. This second special case had the potential to decrease the computation time from $O(2^n)$ down to $O(n)$, but I decided the added time to build and test the new code would not be offset by the time saved from the computations.}
+\end{cvitems}
+}
+
+\vspace{-6mm}
+\cventry
+{Graduate Teaching Assistant} % Job title
+{} % Organization
+{} % Location
+{} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {Lead laboratory and recitation sections for introductory algebra and calculus based physics courses.}
+\item {Graded thousands of exam problems by finding each students mistakes so that I could award maximum points.}
+\item {Motivated students to do well in class. I accomplished this by first gaining the students respect by telling them my perspective on the universe, then I used the physics to transition to philosophy in which I challenged the students to question their own place in the universe. I ultimately wanted the students to realize they weren't being forced to take physics as a requirement for their degree; rather I wanted the students to realize they were the ones that signed up in the hopes of doing what they wanted to do in life.}
+\end{cvitems}
+}
+
+\vspace{-6mm}
+\cventry
+{Class A Truck Driver} % Job title
+{May Trucking Company} % Organization
+{Salem, OR} % Location
+{January 2004 - October 2010} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {Drove 60+ hours a week while away from home; I usually drove the night shift.}
+\item {Maintained a zero accident history despite driving thousands of miles per week all year long.}
+\end{cvitems}
+}
+
+
+%------------------------------------------------
+
+%------------------------------------------------
+\end{cventries}

@@ -1,0 +1,11 @@
+﻿Hello,
+
+I've enjoyed my experience working as a TA mostly due to interactions with the students. I honestly thought of myself as an average guy, so I thought everyone had no trouble with physics, but as a TA I actually found many students struggled to understand the concepts in physics. As a TA I took a student centered approach by going above and beyond what a typical TA was required to do. For example I usually gave extra practice problems and feedback to students, and I helped students outside of office hours to study for their exams. By far the most enjoyable part of my TA work was that I tried to motivate students to do better by combining physics with philosophy to leave the students with the feeling that their destiny is in their own hands.
+
+Further, my experience with computational physics has forced me to solve problems in unconventional ways. For instance I once talked with my advisor about identifying atoms in a liquid or solid state within a single molecular dynamics simulation. My advisors idea was to use a single snapshot along with bonding lengths to determine if an atom was in a liquid or solid state. I realized a single snapshot contained lots of noise, so I instead used two snapshots separated in time. The idea was an atom in a solid state doesn't change nearest neighbors very often, while an atom in a liquid state is constantly changing nearest neighbors. The logic for this new metric was relatively easy to implement.
+
+My experience as a TA shows I do want the people around me to succeed in whatever it is they are trying to do, while my computational physics background shows that I do like to solve problems in unconventional ways. This is why I feel I will do well as an engineer at SpaceX.
+
+Thank you for your time,
+Billy Geerhart.
+(541) 224-1642
